@@ -3,11 +3,11 @@ RESTful API
 
 ## Ethreum 
 
-# Balance 
-http get http://127.0.0.1:8080/ETH（测试网换成BTCTEST）/balance/0x2028aa76c84802cd61ab3bec4f142ca33743068b
+### Balance 
+http get http://127.0.0.1:8080/ETH（测试网换成BTCTEST）/balance/0x2028aa76c84802cd61ab3bec4f142ca33743068b  "1."+space
 **正常响应 json：**
 `{
-    "balance": "1575119465000126000", 
+    "balance": "1575119465000126000", "1."+space
     "message": "",  （为空）
     "txcount": "0xaf1"
 }`
@@ -17,12 +17,12 @@ http get http://127.0.0.1:8080/ETH（测试网换成BTCTEST）/balance/0x2028aa7
     "message": "format error", （或者其他错误信息）
     "txcount": "-1"
 }`
-# Push rawtx
+### Push rawtx
 同比特币
 
 ## Bitcoin
 
-# Unspent
+### Unspent
 http get http://127.0.0.1:8080/BTC(测试网换成BTCTEST)/unspend/1Hz96kJKF2HLPGY15JWLB5m9qGNxvt8tHJ 
 **正常响应 json:**
 `{
@@ -43,7 +43,7 @@ http get http://127.0.0.1:8080/BTC(测试网换成BTCTEST)/unspend/1Hz96kJKF2HLP
     "uTXO": null
 }`
 
-# Push rawtx
+### Push rawtx
 http post http://127.0.0.1:8080/BTCTEST（主网改为BTC）/pushtx  rawtx="hextx"
 **正常响应 json:**
 `{
