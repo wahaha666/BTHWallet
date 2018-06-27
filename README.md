@@ -4,7 +4,7 @@ RESTful API
 ## Ethreum 
 
 ### Balance 
-http get http://127.0.0.1:8080/ETH（测试网换成BTCTEST）/balance/0x2028aa76c84802cd61ab3bec4f142ca33743068b  <br>  
+`http get http://127.0.0.1:8080/ETH（测试网换成BTCTEST）/balance/0x2028aa76c84802cd61ab3bec4f142ca33743068b ` <br>
 **正常响应 json：** <br> 
 ```
     {  
@@ -27,7 +27,7 @@ http get http://127.0.0.1:8080/ETH（测试网换成BTCTEST）/balance/0x2028aa7
 ## Bitcoin
 
 ### Unspent
-http get http://127.0.0.1:8080/BTC(测试网换成BTCTEST)/unspend/1Hz96kJKF2HLPGY15JWLB5m9qGNxvt8tHJ  <br>  
+`http get http://127.0.0.1:8080/BTC(测试网换成BTCTEST)/unspend/1Hz96kJKF2HLPGY15JWLB5m9qGNxvt8tHJ`  <br>  
 **正常响应 json:** <br>  
 ```
     {
@@ -51,7 +51,7 @@ http get http://127.0.0.1:8080/BTC(测试网换成BTCTEST)/unspend/1Hz96kJKF2HLP
     } 
 ```
 ### Push rawtx
-http post http://127.0.0.1:8080/BTCTEST（主网改为BTC）/pushtx  rawtx="hextx" 
+`http post http://127.0.0.1:8080/BTCTEST（主网改为BTC）/pushtx  rawtx="hextx"` <br> 
 **正常响应 json:** <br>  
 ```
    {
