@@ -1,8 +1,9 @@
 # BTHWallet
 RESTful API
 
-## Ethreum 
-
+## Ethereum
+工具：httpie 
+`apt-get install httpie`
 ### Balance 
 `http get http://127.0.0.1:8080/ETH（测试网换成BTCTEST）/balance/0x2028aa76c84802cd61ab3bec4f142ca33743068b ` <br>
 **正常响应 json：** <br> 
