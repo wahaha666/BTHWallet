@@ -28,7 +28,7 @@ RESTful API
 ## Bitcoin
 
 ### Unspent
-`http get http://127.0.0.1:8080/BTC(测试网换成BTCTEST)/unspend/1Hz96kJKF2HLPGY15JWLB5m9qGNxvt8tHJ`  <br>  
+`http get http://127.0.0.1:8080/BTC(测试网换成BTCTEST)/unspent/1Hz96kJKF2HLPGY15JWLB5m9qGNxvt8tHJ`  <br>  
 **正常响应 json:** <br>  
 ```
     {
