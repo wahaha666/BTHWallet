@@ -5,7 +5,7 @@ RESTful API
 工具：httpie 
 `apt-get install httpie`
 ### Balance 
-`http get http://127.0.0.1:8080/ETH（测试网换成BTCTEST）/balance/0x2028aa76c84802cd61ab3bec4f142ca33743068b ` <br>
+`http get http://127.0.0.1:8080/ETH（测试网换成ETHTEST）/balance/0x2028aa76c84802cd61ab3bec4f142ca33743068b ` <br>
 **正常响应 json：** <br> 
 ```
     {  
@@ -23,7 +23,8 @@ RESTful API
     }  
  ```
 ### Push rawtx
-同比特币 <br>  
+http get http://127.0.0.1:8080/ETH(测试网换成ETHTEST)/unspent/1Hz96kJKF2HLPGY15JWLB5m9qGNxvt8tHJ
+响应格式同比特币 <br>  
 
 ## Bitcoin
 
