@@ -23,7 +23,7 @@ RESTful API
     }  
  ```
 ### Push rawtx
-`http get http://127.0.0.1:8080/ETH(测试网换成ETHTEST)/unspent/1Hz96kJKF2HLPGY15JWLB5m9qGNxvt8tHJ`
+`http get http://127.0.0.1:8080/ETH(测试网换成ETHTEST)/unspent/1Hz96kJKF2HLPGY15JWLB5m9qGNxvt8tHJ`<br>
 响应格式同比特币 <br>  
 
 ## Bitcoin
